@@ -1,24 +1,226 @@
-<!-- 
-HTML Template for Missions, delete and replace with mission HTML
--->
+
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="style.css" />
-  <title>Gnius Club</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Playbook - Preescolar Sesión 8</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
 <body>
-  <h1>
-    Playbook HTML Placeholder Template
-  </h1>
-  <p>
-    Replace with actual playbook code.
-  </p>
-  <script src="script.js"></script>
+<header>
+<h1><span class="book-icon">📋</span> <strong>Playbook Sesión 8 Kínder 3</strong></h1>
+<div class="header-widgets">
+<div class="timer-container">
+<span id="timer">⏱️ 00:00</span>
+<button id="startStop">Start</button>
+<button id="reset">Reset</button>
+</div>
+<div class="theme-toggle">
+<i class="fas fa-sun"></i>
+<label class="switch">
+<input type="checkbox" id="theme-toggle-input">
+<span class="slider round"></span>
+</label>
+<i class="fas fa-moon"></i>
+</div>
+</div>
+</header>
+<div class="main-container">
+<aside class="activity-list">
+<h2>Actividades</h2>
+<ul>
+<li><a href="#activity-0">📝</a></li>
+<li><a href="#activity-1">1</a></li>
+<li><a href="#activity-2">2</a></li>
+<li><a href="#activity-3">3</a></li>
+<li><a href="#activity-4">4</a></li>
+</ul>
+<div class="sidebar-info">
+<p>💡 Cada actividad está diseñada para ser lúdica y captar la atención de los más pequeños.</p>
+<p>⏱️ Los tiempos son una guía. Sé flexible y adáptate al ritmo del grupo.</p>
+</div>
+</aside>
+<main class="content">
+<div class="progress-bar">
+<div class="progress"></div>
+</div>
+<button id="toggle-dialogues">Mostrar todos los diálogos</button>
+<div class="activity-card" id="activity-0">
+<h2><span class="book-icon">📝</span> De un Vistazo: Misión: ¡El Misterio del Código Secreto!</h2>
+<p class="overview-subtitle">Resumen rápido de objetivos, materiales y preparación para esta aventura de aprendizaje.</p>
+<div class="overview-table-container">
+<table>
+<thead>
+<tr>
+<th style="width: 50%;">Objetivos, Tácticas y Entregable</th>
+<th style="width: 50%;">Materiales Específicos y Preparación Previa</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+<strong>Objetivos de Aprendizaje:</strong>
+<ul>
+<li>Planificar una secuencia de 3-4 acciones usando tarjetas de "Spark Code".</li>
+<li>Traducir una idea o misión a un plan simbólico.</li>
+<li>Seguir un plan visual para mover un objeto.</li>
+</ul>
+<strong>Secuencia Didáctica de la Misión:</strong>
+<ul>
+<li>⚡ Actividad 1: Bienvenida y Calentamiento Cerebral</li>
+<li>⚡ Actividad 2: Planteamiento del Reto y Cuento</li>
+<li>⚡ Actividad 3: ¡Manos a la Obra! (Actividad Principal)</li>
+<li>⚡ Actividad 4: Puesta en Común y Cierre de la Misión</li>
+</ul>
+<strong>Entregable Clave:</strong>
+<ul>
+<li>Creación y ejecución exitosa de un plan visual (usando Spark Codes) para completar una misión simple, verbalizando las acciones.</li>
+</ul>
+</td>
+<td>
+<strong>Materiales Específicos:</strong>
+<ul>
+<li>Tarjetas de "Spark Code" (creadas en la clase anterior y pre-hechas).</li>
+<li>Una figura del Set de Personas.</li>
+<li>Un "mapa" simple en el suelo o en una mesa (ej. casa -&gt; granja).</li>
+</ul>
+<strong>Preparación Previa para ESTA Sesión:</strong>
+<ol>
+<li><strong>Revisión de Materiales:</strong> Asegurar que todos los materiales estén completos, limpios y listos para ser repartidos.</li>
+<li><strong>Preparación del Espacio:</strong> Organizar el aula para facilitar la actividad (círculo en el suelo, mesas de trabajo, espacio para moverse).</li>
+<li><strong>Familiarización:</strong> Leer el playbook completo para entender el flujo narrativo, los diálogos y las transiciones. Tener clara la historia o el reto que se presentará.</li>
+</ol>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="activity-card" id="activity-1">
+<h2>⚡ Actividad 1: ¡Activando Nuestros Cerebros de Código! ⏰ 5 min</h2>
+<p>¡Listos para una nueva aventura! Vamos a recordar nuestros símbolos secretos y a calentar motores para la gran misión.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Recordando la Magia de los Símbolos ⏰ 3 min (Proyectar Diapositiva 1)</h3>
+<p>Saluda a los niños con energía. Señala la galería de símbolos de "Spark Code" de la clase anterior. Pregúntales sobre el significado de cada uno, reforzando la conexión entre el símbolo y la acción.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Hola, superingenieros e ingenieras del futuro! ¡Qué alegría verlos listos para otra aventura de Spark Code! ¿Se acuerdan de nuestros símbolos secretos? ¿Qué hacía este símbolo? (Señala una tarjeta, por ejemplo, la de "avanzar"). ¡Exacto! ¡Era para avanzar! ¿Y si yo quiero que el personaje se mueva hacia adelante, qué tarjeta usamos? ¡Muy bien!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: ¡Símbolos en Acción! ⏰ 2 min (Proyectar Diapositiva 2)</h3>
+<p>Ahora, vamos a jugar a recordar más símbolos y a mover nuestros cuerpos. Muestra otra tarjeta (ej. "girar" o "parar") y pide a los niños que imiten la acción. Refuerza que cada símbolo es una instrucción clara.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Guau, qué memoria! ¡Veo que están listos para usar sus cuerpos y sus mentes para recordar nuestros símbolos secretos! ¿Qué tal si hacemos una pequeña práctica? Si yo muestro la tarjeta de 'avanzar', todos damos un paso hacia adelante. Si muestro 'parar', ¡nos congelamos como estatuas! ¡Excelente! ¡Están calentando sus cerebros de código y están listos para la misión de hoy!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-2">
+<h2>⚡ Actividad 2: ¡La Misión Secreta Nos Espera! ⏰ 10 min</h2>
+<p>Descubramos juntos el reto de hoy y cómo nuestros Spark Codes nos ayudarán a resolverlo. ¡Prepárense para una historia emocionante!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Desvelando el Misterio del Granjero ⏰ 5 min (Proyectar Diapositiva 3)</h3>
+<p>Presenta la figura del Set de Personas y el "mapa" simple. Narra la situación del granjero con entusiasmo, usando un tono de misterio. Modela una secuencia simple de movimiento con las tarjetas Spark Code, enfatizando que están creando un "plan secreto".</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Atención, equipo de agentes secretos! Tengo una misión SÚPER IMPORTANTE para ustedes. ¡Escuchen bien! (Con tono de misterio, usando la estrategia de transición: "Esta es una misión secreta, su plan es la clave"). Nuestro amigo, el granjero, necesita llevar comida urgente a los animalitos en la granja, ¡pero el camino es un laberinto! ¿Cómo creen que podemos ayudarlo? ¡Con nuestros Spark Codes! ¡Son la clave para crear un <strong>plan secreto</strong>! Miren, si yo quiero que el granjero avance, pongo esta tarjeta (muestra "avanzar"), y luego esta otra (otra de "avanzar"), ¡y listo! ¡El granjero se mueve! ¡Qué emoción! ¿Están listos para crear sus propios planes secretos?</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Construyendo un Camino con Giros ⏰ 5 min (Proyectar Diapositiva 4)</h3>
+<p>Modela una secuencia ligeramente más compleja que incluya un giro o una parada, explicando cómo cada tarjeta es una instrucción precisa. Haz hincapié en que el plan se construye paso a paso antes de mover al personaje.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">Miren este camino (señala el mapa). ¡Es un poco diferente! Nuestro granjero no puede ir siempre recto. A veces, necesita... ¡GIRAR! ¿Qué tarjeta creen que necesitamos para eso? (Muestra la tarjeta de girar). ¡Muy bien! Entonces, para ir por este camino, nuestro plan secreto sería: 'avanzar', luego 'girar', y luego 'avanzar' otra vez, ¡y finalmente 'parar' cuando llegue a su destino! ¡Así de mágico es nuestro código! ¡Construimos el camino con las tarjetas antes de que el granjero dé un solo paso! ¿Listos para ser los arquitectos de caminos secretos?</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-3">
+<h2>⚡ Actividad 3: ¡Manos a la Obra! Diseñando Nuestro Código Secreto ⏰ 20 min</h2>
+<p>Es hora de que nuestros pequeños genios usen su creatividad y lógica para construir el plan perfecto con los Spark Codes. ¡A trabajar en equipo!</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Formando Equipos de Agentes y Repartiendo Herramientas ⏰ 5 min (Proyectar Diapositiva 5)</h3>
+<p>Divide a los niños en equipos pequeños (2-3 niños por equipo es ideal para la colaboración en preescolar). Asegúrate de que cada equipo tenga un espacio claro para trabajar en el suelo o en una mesa. Reparte un set completo de tarjetas Spark Code a cada equipo y un personaje. Asigna una misión simple y clara a cada equipo, asegurándote de que la misión sea visible o fácil de recordar (ej. 'La doctora debe llegar al hospital' o 'El coche debe ir al garaje'). Puedes tener imágenes de los destinos para facilitar la comprensión.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Muy bien, superagentes! Ahora vamos a trabajar en equipos. Cada equipo recibirá su propia misión secreta, un personaje y un set de tarjetas Spark Code. ¡Recuerden! Su misión es usar estas tarjetas para crear el camino más inteligente y secreto para completar su objetivo. ¡A trabajar en equipo, la comunicación y la ayuda mutua son clave!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Construyendo el Plan Maestro ⏰ 15 min (Proyectar Diapositiva 6)</h3>
+<p>Circula activamente entre los equipos. Observa sus estrategias. Si un equipo se atasca, haz preguntas que los guíen sin dar la respuesta directa: '¿Cuál es el primer paso que necesita dar tu personaje?', '¿Qué tarjeta nos ayuda a movernos hacia adelante?', '¿Y si el personaje necesita girar, qué hacemos?', '¿Cómo saben cuándo el personaje debe parar?'. Anima a los niños a verbalizar sus ideas y a probar diferentes secuencias. Si es necesario, recuérdales que deben ordenar las tarjetas en el suelo, una tras otra, formando el 'camino' visual que el personaje seguirá.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Guau, equipo! ¡Están haciendo un trabajo increíble! Veo que están pensando mucho. ¿Ya pensaron cuál es el primer paso para su personaje? ¿Y qué pasa si ponemos esta tarjeta aquí? ¿Creen que los ayudará a llegar a su destino? ¡Recuerden que tienen que ordenar sus tarjetas en el suelo, como un camino secreto, de principio a fin! ¡Estoy viendo planes muy ingeniosos! ¡Qué gran idea! ¿Y qué creen que pasaría si mueven esta tarjeta para acá? ¿Llegaría el personaje a su destino? ¡Sigan así, exploradores, están a punto de descifrar el código! ¡Vamos a "inspeccionar" sus planes con mi ojo de detective! ¡Excelente!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="activity-card" id="activity-4">
+<h2>⚡ Actividad 4: ¡Misión Cumplida! Probando Nuestros Códigos ⏰ 5 min</h2>
+<p>Es el momento más emocionante: ¡ver si nuestros planes secretos funcionan! Celebraremos cada éxito y aprenderemos de cada intento.</p>
+<div class="steps">
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 1: Ejecutando el Código Maestro ⏰ 3 min (Proyectar Diapositiva 7)</h3>
+<p>Pide a cada equipo que presente su plan. Un miembro del equipo (el 'piloto') mueve la figura paso a paso sobre el mapa o el suelo, siguiendo las instrucciones de las tarjetas. Otro miembro (el 'lector de códigos') verbaliza en voz alta la acción de cada tarjeta a medida que se ejecuta ('¡Avanzar!', '¡Girar!', '¡Parar!'). Celebra cada intento, sea exitoso o no. Si un plan no funciona, pregunta amablemente: '¿Qué crees que pasó aquí? ¿Necesitamos otra tarjeta?'. Guíalos para que identifiquen el error y lo corrijan en el momento.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡Llegó el momento de la verdad, equipo! ¿Están listos para ver si sus planes secretos funcionan? ¡Uno de ustedes será el piloto de nuestra figura, moviéndola con mucho cuidado, y el otro será el lector de códigos, diciendo en voz alta cada instrucción! ¡A ver cómo se mueve su personaje siguiendo las instrucciones de sus Spark Codes! ¡Vamos, con toda la energía! ¡Qué emocionante! ¡Bravo! ¡Lo lograron! ¡Y si no llegó justo donde querían, no pasa nada! ¡Aprendemos de cada intento, como detectives que buscan la pista correcta!</p>
+</div>
+</div>
+</div>
+<div class="step-card">
+<div class="step-content">
+<h3>Paso 2: Celebrando el Éxito y Aprendiendo Juntos ⏰ 2 min (Proyectar Diapositiva 8)</h3>
+<p>Reúne a todos los niños. Felicítalos por su creatividad, esfuerzo y la forma en que trabajaron en equipo. Pregunta a cada equipo sobre su experiencia: '¿Qué fue lo más divertido de crear su código secreto?', '¿Qué fue lo más desafiante?', '¿Qué aprendieron sobre hacer planes?'. Refuerza la idea de que la planificación nos ayuda a alcanzar nuestras metas y que el 'código' es una forma de dar instrucciones claras. Concluye la sesión con una nota de éxito y anticipación para futuras aventuras.</p>
+</div>
+<div class="collapsible">
+<button type="button" class="collapsible-button">Diálogo Sugerido</button>
+<div class="collapsible-content">
+<p class="dialogue assistant">¡MISIÓN CUMPLIDA, SÚPER EQUIPO DE PROGRAMADORES! ¡Lo lograron! ¡Cada uno de sus planes fue increíble y nos ayudó a resolver los retos! ¿Qué fue lo que más les gustó de esta aventura de códigos secretos? ¿Fue difícil ordenar las tarjetas? ¿Se ayudaron mucho en equipo? ¡Recuerden que planificar es como dibujar el camino antes de caminarlo, y eso nos hace súper inteligentes y nos ayuda a lograr nuestras misiones! ¡Un aplauso enorme para todos ustedes! ¡Son unos genios del código! ¡Nos vemos en la próxima misión!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+</div>
+<script src="script.js"></script>
 </body>
-
 </html>
